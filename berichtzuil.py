@@ -22,8 +22,7 @@ locatie = random.choice(locatielijst)
 infile = open('tekstbestand zuil', 'r')
 lineList = infile.readlines()
 beichtnummer = 0
-for lines in lineList:
-    berichtnummer = berichtnummer + 1
+
 
 outfile = open('tekstbestand zuil', 'a+')
 outfile.write( "\n" f"{(bericht)};{(naam)};{(datum)};{(locatie)};" )
